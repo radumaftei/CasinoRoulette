@@ -40,6 +40,10 @@ Optimal Screen Size: While the application is functional, the betting interface 
 
 ## 🚀 Getting Started
 
+### Prerequisites
+
+NodeJS + npm installed
+
 ### Installation
 
 ## Client
