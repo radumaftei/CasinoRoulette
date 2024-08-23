@@ -1,48 +1,44 @@
 # 🎰 Project Title
 
-Brief description of the project and its purpose.
+The betting application currently offers a range of betting options, including straight, even/odd, and dozens. Below is a detailed explanation of the key features and functionality:
 
 ## 🎯 Features
 
-### Available Bets
+### Available Bets:  Players can place bets on the following types:
 
-- **Straight**: Description of what this bet type allows.
-- **Even/Odd**: Description of what this bet type allows.
-- **Dozens**: Description of what this bet type allows.
+- **Straight**: Bet on a specific number.
+- **Even/Odd**: Bet on whether the outcome will be an even or odd number.
+- **Dozens**: Bet on one of three groups of twelve numbers.
 
 ### Multiple Bets
 
-- Explanation of how players can place multiple bets and any relevant restrictions.
+Players have the flexibility to place multiple bets simultaneously. However, they must ensure that their total betting amount does not exceed the allocated chip limit of 1000.
 
 ## 🕹️ Gameplay Mechanics
 
 ### Spin Requirement
 
-- Details on what is required to enable the spin functionality.
+ The spin functionality is only enabled after the player has placed at least one bet.
 
 ### Bet Processing
 
-- Explanation of how bets are processed when the spin is initiated.
+Upon spinning, all current bets are transmitted to the backend for processing. The backend then calculates the results and sends them back to the client.
 
 ### Result Storage
 
-- Information on how and where results are stored after each spin.
+The results from each spin are stored both on the backend and frontend. Note that the current implementation uses in-memory storage for this data.
 
 ## 🧹 Additional Features
 
 ### Clearing Bets
 
-- Instructions on how to clear bets and what this action does.
+Players have the option to clear their bets. This action removes all bets stored in the frontend’s Redux state, allowing the player to start fresh.
 
 ## 💻 Display and Responsiveness
 
-- Recommendations for optimal screen size and any notes on responsiveness.
+Optimal Screen Size: While the application is functional, the betting interface may not be fully responsive on all screen sizes. For the best user experience, we recommend using a screen size between 1100px and 1300px.
 
 ## 🚀 Getting Started
-
-### Prerequisites
-
-- List any software, tools, or versions required to run the project.
 
 ### Installation
 
